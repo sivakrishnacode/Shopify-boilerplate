@@ -1,0 +1,49 @@
+# Monorepo
+node_modules
+package-lock.json
+
+# Client
+apps/client/.turbo
+apps/client/dist
+apps/client/node_modules
+
+
+# Server
+apps/server/.turbo
+apps/server/dist
+apps/server/node_modules
+
+
+# consumer
+apps/consumer/.turbo
+apps/consumer/dist
+apps/consumer/node_modules
+
+
+# Poroducer
+apps/producer/.turbo
+apps/producer/dist
+apps/producer/node_modules
+
+
+# Producer
+apps/producer/.turbo
+apps/producer/dist
+apps/producer/node_modules
+apps/producer/.env
+
+# Consumer
+apps/consumer/.turbo
+apps/consumer/dist
+apps/consumer/node_modules
+apps/consumer/.env
+
+
+# Message-queue (Packages)
+packages/message-queue/.turbo
+packages/message-queue/dist
+packages/message-queue/node_modules
+packages/message-queue/.env
+
+# VsCode
+.vscode

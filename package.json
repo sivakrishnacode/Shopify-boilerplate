@@ -1,0 +1,36 @@
+{
+  "name": "afflr",
+  "version": "v1.0.0-beta.1",
+  "description": "Shopify boilerplate code written in React, Nest, Prisma and GraphQL",
+  "type": "module",
+  "author": {
+    "name": "Kaviarasan R",
+    "url": "https://github.com/Kaviarasan-R"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kaviarasan-R/shopify-react-nest-boilerplate"
+  },
+  "scripts": {
+    "ngrok": "ngrok http --domain=afflr-app-4-back-dev.ngrok.dev 3000",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "node apps/server/dist/main",
+    "shopify": "shopify",
+    "s:e:create": "shopify app generate extension",
+    "s:e:deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@shopify/app": "^3.49.2",
+    "@shopify/cli": "^3.49.2",
+    "@shopify/cli-kit": "^3.49.2",
+    "turbo": "^1.10.13"
+  },
+  "workspaces": [
+    "apps/**",
+    "packages/*"
+  ]
+}
